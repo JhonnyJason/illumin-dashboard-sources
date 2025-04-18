@@ -1,17 +1,24 @@
 // globalstyles styles
+@font-face
+    font-family: SpecialGothic
+    src: url('font/SpecialGothicExpandedOne-Regular.ttf')
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
 
 /*==========================================================
 Color Theme
 ==========================================================*/
-cd-foreground = white
+cd-foreground = black
 cd-flash = purple
-cd-background = black
+cd-background = white
 
 /*==========================================================
 Global Variables
 ==========================================================*/
-// max-content-width = 900px
-// mobile-side-padding = 15px
+max-content-width = 900px
+mobile-side-padding = 15px
 
 
 /*==========================================================
@@ -20,7 +27,7 @@ General Tag Styles
 body
     background-color cd-background
     color cd-foreground
-    font-family: Arial, Helvetica, sans-serif
+    font-family: SpecialGothic, sans-serif
     text-align: center
     font-size: 12pt
     height 100vh
@@ -28,7 +35,7 @@ body
     overflow hidden
 
 h1
-    font-size: 17pt
+    font-size: 26pt
 h2
     font-size: 15pt
 p
